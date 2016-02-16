@@ -1,0 +1,345 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  color: #333;
+  font-weight: normal;
+  font-style: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised;
+}
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: bold;
+  font-family: "CleanvertisingLight", sans-serif;
+  margin: 0;
+}
+
+section {
+  padding: 58px 0 68px;
+}
+
+section.s_dark h2, section.s_dark h3, section.s_dark p {
+  color: #fff;
+}
+
+section h2 {
+  color: #003469;
+  font-size: 50px;
+  line-height: 56px;
+  margin-bottom: 50px;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-align: center;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+p strong {
+  font-family: "RobotoBold", sans-serif;
+  font-weight: normal;
+}
+
+header {
+  min-height: 640px;
+  background-image: url(../img/top_bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "RobotoBold", sans-serif;
+  font-weight: bold;
+}
+
+.tab_item {
+  display: none;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.tab_item:first-child {
+  display: block;
+}
+
+.top_phone {
+  text-align: right;
+}
+
+.top_phone .wrapper .tab {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.top_phone .wrapper .active {
+  text-decoration: underline;
+}
+
+.top_phone .tab_item {
+  display: none;
+  font-size: 34px;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.top_phone .tab_item:first-child {
+  display: block;
+}
+
+.top_header {
+  margin-top: 70px;
+}
+
+.top_header h2 {
+  margin: 10px 0 0;
+  font-family: "CleanvertisingLight", sans-serif;
+  font-size: 36px;
+}
+
+.tabs_header {
+  margin-top: 50px;
+}
+
+.tabs_header ul, .tabs_header li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs_header li {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.tabs_header i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 26px;
+  color: #6f6a67;
+}
+
+.tabs_header .tabs .tab {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 15px 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  float: left;
+  font-family: "RobotoBold", sans-serif;
+  transition: all 0.25s ease;
+}
+
+.tabs_header .tabs .tab.active {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+.tabs_header .tab_content {
+  padding: 12px 18px 16px;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+  text-transform: uppercase;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 32px;
+  background-color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.button.btn_red {
+  background-color: #9b1818;
+}
+
+.button.btn_green {
+  background-color: #67bc5c;
+}
+
+.button.btn_white {
+  background-color: #fff;
+  color: #000;
+}
+
+.button_wrap {
+  text-align: right;
+}
+
+a.button {
+  color: #fff;
+  text-decoration: none;
+}
+
+.s_tizers {
+  background-color: #c6d8ee;
+  background-image: linear-gradient(#c6d8ee, #e8eff7);
+  color: #003469;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-transform: uppercase;
+  padding: 35px 0 0;
+}
+
+.s_tizers span {
+  font-size: 14px;
+  display: block;
+}
+
+.s_tizers strong {
+  font-weight: normal;
+  font-size: 23px;
+  display: block;
+}
+
+.s_tizers .row > div {
+  margin-bottom: 35px;
+}
+
+.tiz_img, .tiz_descr {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.tiz_img i {
+  font-size: 70px;
+  line-height: 48px;
+  margin-right: 5px;
+}
+
+.s_tizers .row > div:nth-child(1) i {
+  font-family: "RobotoRegular", sans-serif;
+  letter-spacing: -12px;
+  margin-right: 18px;
+  line-height: 60px;
+}
+
+.s_tizers .row > div:nth-child(1) strong {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(1) span {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.s_tizers .row > div:nth-child(2) strong {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(2) span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.s_tizers .row > div:nth-child(2) i {
+  position: relative;
+  bottom: -3px;
+}
+
+.s_tizers .row > div:nth-child(3) strong {
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(3) span {
+  line-height: 20px;
+}
+
+.s_tizers .row > div:nth-child(4) span {
+  font-size: 13px;
+  line-height: 8px;
+}
+
+.s_tizers .row > div:nth-child(4) strong {
+  line-height: 34px;
+}
+
+.s_tizers .row > div:nth-child(4) i {
+  line-height: 54px;
+}
+
+.profi_left {
+  color: #9b1818;
+}
+
+.profi_left i {
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.profi_right h3 {
+  display: inline-block;
+  margin: 0;
+  color: #9b1818;
+  font-size: 28px;
+}
+
+.profi_right p {
+  margin-top: 5px;
+}
+
+form {
+  background-color: #f7f7f7;
+  padding: 25px 30px;
+  border: #67bc5c 5px solid;
+  border-radius: 5px;
+}
+
+form h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 22px;
+  color: #text-color;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+form input,
+form select {
+  display: block;
+  line-height: 40px;
+  height: 40px;
+  border: #67bc5c 1px solid;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+  width: 100%;
+  text-indent: 10px;
+  font-size: 20px;
+}
+
+form input:focus,
+form select:focus {
+  box-shadow: #67bc5c 0 0 0 2px;
+  border-radius: 3px;
+  border-color: #67bc5c;
+}
+
+form .button_wrap {
+  text-align: center;
+  margin: 30px 0 10px;
+}
