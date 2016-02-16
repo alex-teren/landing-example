@@ -6,6 +6,15 @@ $red-color: #9b1818
 $blue-color: #003469
 $green-color: #67bc5c
 
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+	box-shadow: $red-color 0 0 0 2px
+	border-color: $red-color
+body input:required:valid,
+body textarea:required:valid
+	color: green 
+
 body
 	font-family: "RobotoRegular", sans-serif
 	color: $text-color
@@ -272,7 +281,6 @@ form
 		font-size: 20px
 		margin-top: 3px	
 		-webkit-appearance: none;
-
 		&:focus
 			box-shadow: $green-color 0 0 0 2px
 			border-radius: 3px
@@ -286,12 +294,68 @@ form
 		text-align: center
 		margin: 30px 0 10px
 
+.s_review
+	background-image: url(../img/middle_bg.jpg)
+	background-repeat: repeat-x
+	background-attachment: fixed
+	min-height: 500px
+	background-position: top center
+	background-size: cover
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid
-	color: red
-	box-shadow: $red-color 0 0 0 2px
-	border-color: $red-color
-body input:required:valid,
-body textarea:required:valid
-	color: green 
+.review_item
+	text-align: center
+	h4
+		font-family: "Times New Roman", serif
+		font-style: italic 
+		font-size: 22px	
+		margin-top: 20px
+		font-weight: normal
+		color: #ffffff
+		margin-bottom: 20px
+	p
+		margin: 30px auto 0
+		float: none
+		font-size: 15px
+	.image_wrap
+		text-align: center
+		img
+			width: 165px
+			height: 165px
+			display: inline-block
+			border-radius: 50%
+			border: #585a5b 10px solid
+
+.hr
+	width: 80px
+	height: 1px
+	background-color: #CEA380
+	margin: auto
+
+.owl-nav
+	div
+		width: 34px
+		height: 140px
+		background-image: url(../img/s_arrows.png)
+		top: 20px
+		position: absolute
+		opacity: .6
+		&:hover
+			opacity: 1
+		&.owl-next
+			right: 0
+			background-position: top right
+
+.owl-dots
+	width: 100%
+	margin-top: 20px
+	text-align: center
+	.owl-dot
+		width: 14px
+		height: 14px
+		background-color: #fff
+		display: inline-block
+		margin: 0 4px
+		border-radius: 50%
+		opacity: .5
+		&.active
+			opacity: .8

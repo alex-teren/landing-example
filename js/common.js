@@ -1,22 +1,22 @@
 $(document).ready(function() {
 
-	// $(".popup").magnificPopup({type:"image"});
-	// $(".popup_c").magnificPopup();
+	$(".popup").magnificPopup({type:"image"});
+	$(".popup_c").magnificPopup();
 
-	// $.stellar({
-	// 	responsive: true,
-	// 	horizontalOffset: 60
-	// });
+	$.stellar({
+		responsive: true,
+		horizontalOffset: 60
+	});
 
-	// $(".carousel").owlCarousel({
-	// 	responsive : {
-	// 		0 : {
-	// 			items : 1,
-	// 			nav : true
-	// 		}
-	// 	},
-	// 	navText : ""
-	// });
+	$(".carousel").owlCarousel({
+		responsive : {
+			0 : {
+				items : 1,
+				nav : true
+			}
+		},
+		navText : ""
+	});
 
 	function wResize() {
 		$("header").css("min-height", $(window).height());
