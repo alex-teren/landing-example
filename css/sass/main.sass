@@ -254,10 +254,10 @@ form
 		font-size: 22px
 		color: #text-color
 		line-height: 22px
-		margin-bottom: 25px
+		margin-bottom: 30px
 	label
 		display: block
-		margin-bottom: 10px
+		margin-bottom: 15px
 		color: #666
 		font-size: 14px
 	input, 
@@ -270,18 +270,28 @@ form
 		width: 100%
 		text-indent: 10px
 		font-size: 20px
+		margin-top: 3px	
+		-webkit-appearance: none;
+
 		&:focus
 			box-shadow: $green-color 0 0 0 2px
 			border-radius: 3px
 			border-color: $green-color
+	select
+		background-image: url(../img/arrow.svg)
+		background-repeat: no-repeat
+		background-position: right center
+
 	.button_wrap
 		text-align: center
 		margin: 30px 0 10px
 
 
-// body input:focus:required:invalid,
-// body textarea::focus:required:invalid
-// 	color:required
-// body input:required:valid,
-// body textarea:required:valid
-// 	color: green 
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+	box-shadow: $red-color 0 0 0 2px
+	border-color: $red-color
+body input:required:valid,
+body textarea:required:valid
+	color: green 
