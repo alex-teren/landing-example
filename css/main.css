@@ -449,3 +449,82 @@ form .button_wrap {
 .owl-dots .owl-dot.active {
   opacity: .8;
 }
+
+.s_back {
+  background-image: url(../img/red_bg.jpg);
+  background-position: top center;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.s_back h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 26px;
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 10px 0;
+}
+
+.s_back .button {
+  margin: auto;
+}
+
+.s_contacts {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.s_contacts .wrapper {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.s_contacts .wrapper .tab_item {
+  font-weight: normal;
+  font-family: "RobotoRegular", sans-serif;
+}
+
+.s_contacts h2 {
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  height: 45px;
+  line-height: 45px;
+}
+
+.s_contacts .tabs {
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 20px;
+}
+
+.s_contacts .tabs .tab {
+  float: left;
+  padding: 0 60px;
+  border: #9b1818 5px solid;
+  line-height: 38px;
+  color: #9b1818;
+}
+
+.s_contacts .tabs .tab:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.s_contacts .tabs .tab:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.s_contacts .tabs .tab.active {
+  background-color: #9b1818;
+  color: #fff;
+}
+
+.map {
+  margin-top: 20px;
+  min-height: 480px;
+  background-color: yellow;
+}

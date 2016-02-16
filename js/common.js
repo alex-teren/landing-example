@@ -43,7 +43,10 @@ $(document).ready(function() {
 		$(".tabs_header .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
-
+	$(".contacts_top .tab").click(function() {
+		$(".contacts_top .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".s_contacts .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active"); 	
 
 
 	// $(".bottom_phone .wrapper .tab").click(function() {
@@ -52,10 +55,7 @@ $(document).ready(function() {
 	// }).eq(0).addClass("active");
 
 
-	// $(".contacts_top .tab").click(function() {
-	// 	$(".contacts_top .tab").removeClass("active").eq($(this).index()).addClass("active");
-	// 	$(".s_contacts .tab_item").hide().eq($(this).index()).fadeIn()
-	// }).eq(0).addClass("active"); 
+
 
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
