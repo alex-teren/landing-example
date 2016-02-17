@@ -136,8 +136,8 @@
 @media (min-height: 780px) and (min-width : 1400px) {
 	
 	.tabs_header {
-		position: absolute;
-		bottom: 80px;
+		
+		margin-top: 80px;
 	}
 
 	.tabs_header > div {
