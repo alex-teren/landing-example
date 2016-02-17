@@ -19,6 +19,7 @@ body {
   position: relative;
   line-height: 1.6;
   -webkit-font-smoothing: antialised;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -30,15 +31,20 @@ h1 {
   margin: 0;
 }
 
-section {
+section,
+footer {
   padding: 58px 0 68px;
 }
 
-section.s_dark h2, section.s_dark h3, section.s_dark p {
+section.s_dark h2, section.s_dark h3, section.s_dark p,
+footer.s_dark h2,
+footer.s_dark h3,
+footer.s_dark p {
   color: #fff;
 }
 
-section h2 {
+section h2,
+footer h2 {
   color: #003469;
   font-size: 50px;
   line-height: 56px;
@@ -84,23 +90,33 @@ header {
   text-align: right;
 }
 
-.top_phone .wrapper .tab {
+.top_phone .wrapper .tab,
+.bottom_phone .wrapper .tab {
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.top_phone .wrapper .active {
+.top_phone .wrapper .active,
+.bottom_phone .wrapper .active {
   text-decoration: underline;
 }
 
-.top_phone .tab_item {
+.top_phone .tab_item,
+.bottom_phone .tab_item {
   display: none;
   font-size: 34px;
   font-family: "RobotoBold", sans-serif;
 }
 
-.top_phone .tab_item:first-child {
+.top_phone .tab_item:first-child,
+.bottom_phone .tab_item:first-child {
   display: block;
+}
+
+.bottom_phone {
+  text-align: center;
+  margin-top: 50px;
+  color: #9b1818;
 }
 
 .top_header {
@@ -527,4 +543,19 @@ form .button_wrap {
   margin-top: 20px;
   min-height: 480px;
   background-color: yellow;
+}
+
+footer .button_wrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer h2 {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 18px;
 }

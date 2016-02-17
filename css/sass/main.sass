@@ -24,6 +24,7 @@ body
 	position: relative
 	line-height: 1.6
 	-webkit-font-smoothing: antialised
+	overflow-x: hidden
 
 h1
 	color: #fff
@@ -34,7 +35,8 @@ h1
 	margin: 0
 
 
-section
+section,
+footer
 	padding: 58px 0 68px
 	&.s_dark
 		h2, h3, p
@@ -76,20 +78,35 @@ header
 .tab_item:first-child
 	display: block
 
+
 .top_phone
 	text-align: right	
-.top_phone .wrapper .tab
-	text-transform: uppercase
-	cursor: pointer
-.top_phone .wrapper .active
-	text-decoration: underline
+.top_phone,
+.bottom_phone 
+	.wrapper .tab
+		text-transform: uppercase
+		cursor: pointer
+.top_phone,
+.bottom_phone 
+	.wrapper .active
+		text-decoration: underline
 
-.top_phone .tab_item
-	display: none
-	font-size: 34px
-	font-family: "RobotoBold", sans-serif
-.top_phone .tab_item:first-child
-	display: block
+.top_phone,
+.bottom_phone 
+	.tab_item
+		display: none
+		font-size: 34px
+		font-family: "RobotoBold", sans-serif
+.top_phone,
+.bottom_phone 
+	.tab_item:first-child
+		display: block
+
+
+.bottom_phone
+	text-align: center
+	margin-top: 50px
+	color: $red-color
 
 
 .top_header
@@ -417,3 +434,15 @@ form
 	margin-top: 20px
 	min-height: 480px 
 	background-color: yellow
+
+
+footer
+	.button_wrap
+		text-align: center
+		margin-top: 20px
+	h2
+		color: #000
+		margin-bottom: 30px
+	p
+		text-align: center
+		font-size: 18px

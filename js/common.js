@@ -26,10 +26,6 @@ $(document).ready(function() {
 		wResize()
 	});
 
-
-	// function wResize() {
-	// 	$("header").css("min-height", $(window).height());
-	// };
  
 
 	$(".top_phone .wrapper .tab").click(function() {
@@ -49,10 +45,10 @@ $(document).ready(function() {
 	}).eq(0).addClass("active"); 	
 
 
-	// $(".bottom_phone .wrapper .tab").click(function() {
-	// 	$(".bottom_phone .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-	// 	$(".bottom_phone .tab_item").hide().eq($(this).index()).fadeIn()
-	// }).eq(0).addClass("active");
+	$(".bottom_phone .wrapper .tab").click(function() {
+		$(".bottom_phone .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".bottom_phone .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
 
 
 
@@ -93,15 +89,15 @@ $(document).ready(function() {
 	
 });
 
-// $(window).load(function() {
+$(window).load(function() {
 
-// 	$(".loader_inner").fadeOut();
-// 	$(".loader").delay(400).fadeOut("slow");
+	$(".loader_inner").fadeOut();
+	$(".loader").delay(400).fadeOut("slow");
 
-// 	$(".top_header").animated("fadeInDown", "fadeOut");
-// 	$(".tabs_header .wrapper").animated("flipInY", "fadeOut");
-// 	$(".profi_item").animated("fadeInRight", "fadeOut");
-// 	$(".s_pofi form").animated("zoomInRight", "fadeOut");
-// 	$(".s_back h3").animated("fadeInUp", "fadeOut");
-// 	$("section h2, footer h2, .contacts_top .tabs").animated("fadeInUp", "fadeOut");
-// });
+	$(".top_header").animated("fadeInDown", "fadeOut");
+	$(".tabs_header .wrapper").animated("flipInY", "fadeOut");
+	$(".profi_item").animated("fadeInRight", "fadeOut");
+	$(".s_profi form").animated("zoomInRight", "fadeOut");
+	$(".s_back h3").animated("fadeInUp", "fadeOut");
+	$("section h2, footer h2, .contacts_top .tabs").animated("fadeInUp", "fadeOut");
+});

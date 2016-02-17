@@ -51,9 +51,9 @@
 
 
 	
-/*	.s_contacts h2 {
+	.s_contacts h2 {
 		margin-bottom: 20px;
-	}*/
+	}
 
 }
 
@@ -101,9 +101,10 @@
 	.button {
 		font-size: 15px;
 	}
+	*/
 	.s_contacts .tabs .tab {
 		padding: 0 20px;
-	}*/
+	}
 }
 
 /* Custom, iPhone Retina */
