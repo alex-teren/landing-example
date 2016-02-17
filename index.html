@@ -79,7 +79,7 @@
 					        </div>
 					        <div class="tab_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat non aspernatur voluptatibus blanditiis iste, culpa voluptatem accusamus obcaecati autem illum minus esse magnam libero, expedita delectus fugit numquam. Dolorem, quidem!</div>
 					        <div class="button_wrap">
-					        	<a href="#" class="button btn_red">Начать обучение</a>
+					        	<a href="#hidden_form" class="button btn_red popup_c">Начать обучение</a>
 					        </div>
 					    </div>
 					</div>										
@@ -220,7 +220,7 @@
 	              		</select>
 	              	</label>
 	              	<div class="button_wrap">
-	              	<button class = "button btn_green">
+	              	<button href="#hidden_form" class = "button btn_green popup_c">
 	              		Отправить заявку
 	              	</button>
 	              	</div>
@@ -272,7 +272,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h3>Повышение знаний с ProKurs — это оптимальное сочетание интенсива и углубленного подхода.</h3>
-					<a href="#" class="button btn_white">Отправить заявку</a>
+					<a href="#hidden_form" class="button btn_white popup_c">Отправить заявку</a>
 				</div>
 			</div>
 		</div>
@@ -326,13 +326,57 @@
 						</div>
 					</div>
 					<div class="button_wrap">
-						<a href="" class="button btn_red">Заказать звонок</a>
+						<a href="#form_back" class="button btn_red popup_c">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		
 	</footer>
+
+
+	<div class="hidden">
+		<form id="hidden_form">		
+	  	<h2>Связаться с нами</h2>
+	  	<label>
+	  		<span>Ваше имя:</span>
+	  		<input type="text" name="name" required>
+	  	</label>
+	  	<label>
+	  		<span>Ваш телефон:</span>
+	  		<input type="text" name="phone" required>
+	  	</label>
+	  	<label>
+	  		<span>Ваш город:</span>
+	  		<select name="city">
+	  			<option>Москва</option>
+	  			<option>Караганда</option>
+	  		</select>
+	  	</label>
+	  	<div class="button_wrap">
+	  	<button class = "button btn_green">
+	  		Отправить заявку
+	  	</button>
+	  	</div>	              
+		</form>
+
+		<form id="form_back">		
+	  	<h2>Заказать звонок</h2>
+	  	<label>
+	  		<span>Ваше имя:</span>
+	  		<input type="text" name="name" required>
+	  	</label>
+	  	<label>
+	  		<span>Ваш телефон:</span>
+	  		<input type="text" name="phone" required>
+	  	</label>
+	  	<div class="button_wrap">
+	  	<button class = "button btn_green">
+	  		Отправить заявку
+	  	</button>
+	  	</div>	              
+		</form>
+	</div>
 
 
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>

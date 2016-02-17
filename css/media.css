@@ -9,15 +9,6 @@
 		display: block;
 		margin-top: 10px;
 	}
-
-
-/*	.s_tizers .row > div {
-		text-align: center;
-	}
-	.tiz_descr {
-		display: block;
-		margin-top: 10px;
-	}*/
 }
 
 /* Medium Devices, Desktops */
@@ -42,14 +33,14 @@
 	.top_phone, .logo, .top_header h1, .top_header h2 {
 		text-align: center;
 	}
+
 	.logo {
 		margin-bottom: 15px;
 	}
+
 	.top_phone .tab_item {
 		font-size: 30px;
 	}
-
-
 	
 	.s_contacts h2 {
 		margin-bottom: 20px;
@@ -58,6 +49,7 @@
 }
 
 @media only screen and (max-width : 600px) {
+
 	.profi_item {
 		width: 100%;
 		text-align: center;
@@ -82,8 +74,7 @@
 	.tabs_header .tabs .tab {
 		font-size: 12px;
 		padding: 15px 15px;
-	}
-	
+	}	
 	.button_wrap {
 		text-align: center;
 	}
@@ -158,21 +149,4 @@
 		margin-top: 150px;
 	}
 
-}
-
-@media (min-height: 780px) and (min-width: 1400px) {
-
-
-
-/*	.tabs_header {
-		position: absolute;
-		bottom: 80px;
-	}
-	.tabs_header > div {
-		width: 100%;
-		max-width: 660px;
-	}
-	.top_header {
-		margin-top: 150px;
-	}*/
 }

@@ -92,7 +92,6 @@ header {
 
 .top_phone .wrapper .tab,
 .bottom_phone .wrapper .tab {
-  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -117,6 +116,7 @@ header {
   text-align: center;
   margin-top: 50px;
   color: #9b1818;
+  text-transform: uppercase;
 }
 
 .top_header {
@@ -558,4 +558,17 @@ footer h2 {
 footer p {
   text-align: center;
   font-size: 18px;
+}
+
+#hidden_form,
+#form_back {
+  max-width: 420px;
+  margin: auto;
+  position: relative;
+}
+
+#hidden_form h2,
+#form_back h2 {
+  text-align: center;
+  font-weight: normal;
 }
