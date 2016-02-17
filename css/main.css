@@ -1,15 +1,3 @@
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-  color: red;
-  box-shadow: #9b1818 0 0 0 2px;
-  border-color: #9b1818;
-}
-
-body input:required:valid,
-body textarea:required:valid {
-  color: green;
-}
-
 body {
   font-family: "RobotoRegular", sans-serif;
   color: #333;
@@ -58,6 +46,22 @@ footer h2 {
 p strong {
   font-family: "RobotoBold", sans-serif;
   font-weight: normal;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+  box-shadow: #9b1818 0 0 0 2px;
+  border-color: #9b1818;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+.hidden {
+  display: none;
 }
 
 header {

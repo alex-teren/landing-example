@@ -6,14 +6,7 @@ $red-color: #9b1818
 $blue-color: #003469
 $green-color: #67bc5c
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid
-	color: red
-	box-shadow: $red-color 0 0 0 2px
-	border-color: $red-color
-body input:required:valid,
-body textarea:required:valid
-	color: green 
+
 
 body
 	font-family: "RobotoRegular", sans-serif
@@ -51,9 +44,22 @@ footer
 		margin-top: 0
 		font-weight: normal
 
+
 p strong
 	font-family: "RobotoBold", sans-serif
 	font-weight: normal
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+	box-shadow: $red-color 0 0 0 2px
+	border-color: $red-color
+body input:required:valid,
+body textarea:required:valid
+	color: green 
+
+.hidden
+	display: none	
 
 header
 	min-height: 640px
@@ -293,7 +299,7 @@ form
 		line-height: 40px
 		height: 40px
 		border: $green-color 1px solid
-		box-shadow: 0 0 20px rgba(0,0,0,.06)inset
+		box-shadow: 0 0 20px rgba(0,0,0,.06) inset
 		width: 100%
 		text-indent: 10px
 		font-size: 20px
